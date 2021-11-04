@@ -1,17 +1,27 @@
 
-.navbar{
+/*nav styles*/
+nav{
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     padding: 12px 15%;
 }
 
-.navbar a{
+nav a{
     font-weight: regular;
     font-size: 18px;
     color: #e5e7eb;
-    font-family: Helvetica, sans-serif;
-    letter-spacing: 1px;
+}
+
+.logo-text{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.logo-stuff{
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 .header-links{
@@ -25,10 +35,66 @@
     width: 80px;;
 }
 
+/*hero styles*/
+
+.hero-box{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 15%;
+    gap: 20px;
+}
+
+.hero-image{
+    width: 500px;
+    max-height: 345px;
+    height: auto;
+    min-width: 400px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.hero-body{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#f9faf8
+}
+
+.hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 500px;
+}
+
+.shop-now{
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    max-width: 150px;
+}
+
+
+/*tag stuff*/
 body{
     height: 100vh;
     width: 100vw;
     margin: 0px;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+h1{
+    margin: 0;
 }
 
 img{
