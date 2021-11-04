@@ -83,6 +83,55 @@ nav a{
     max-width: 150px;
 }
 
+/*cards style*/
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+}
+
+.card-img{
+    border: 5px solid #3882f6;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.card-text{
+    width: 240px;
+    text-align: center;
+}
+
+.cards{
+    display:flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/*quote style*/
+.quote-section{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 25%;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-attribution{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
 
 /*tag stuff*/
 body{
@@ -110,4 +159,8 @@ a{
 ul{
     list-style-type: none;
     padding-left: 0;
+}
+
+p{
+    margin: 0;
 }
