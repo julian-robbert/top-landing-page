@@ -168,6 +168,20 @@ nav a{
     font-weight: bold;
 }
 
+/*footer style*/
+footer div{
+    background-color: #1f2937;
+    padding: 50px 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    font-size: 21px;
+    color: #e5e7eb;
+}
+
 /*tag stuff*/
 body{
     height: 100vh;
