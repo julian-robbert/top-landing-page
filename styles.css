@@ -133,6 +133,41 @@ nav a{
     justify-content: flex-end;
 }
 
+/*call to action style*/
+.cta-container{
+    padding: 100px 200px;
+}
+
+.cta{
+    background-color: #3882f6;
+    padding: 5% 15%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-title{
+    font-size: 32px;
+    font-style: bold;
+    color: #f9faf8;
+}
+
+.cta-text{
+    font-size: 21px;
+    color: #e5e7eb;
+}
+
+.cta-button{
+    padding: 5px 20px;
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-size: 21px;
+    font-weight: bold;
+}
+
 /*tag stuff*/
 body{
     height: 100vh;
